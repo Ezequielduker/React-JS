@@ -1,0 +1,55 @@
+[
+{
+    "id": 1,
+    "idCategoria": 1,
+    "nombre": "Notebook",
+    "marca": "apple",
+    "modelo": "Y510P",
+    "precio": 60000,
+    "stock": 30,
+    "img": "macbook.jpg"
+},
+{
+    "id": 2,
+    "idCategoria": 2,
+    "nombre": "auriculares-xiaomi",
+    "marca": "xiaomi",
+    "modelo": "Y510H",
+    "precio": 3000,
+    "stock": 10,
+    "img": "auriculares-xiaomi.jpg"
+},
+
+{
+    "id": 3,
+    "idCategoria": 3,
+    "nombre": "auriculares",
+    "marca": "boss",
+    "modelo": "Y510J",
+    "precio": 2000,
+    "stock": 20,
+    "img": "auriculares.jpg"
+},
+
+{
+    "id": 4,
+    "idCategoria":4 ,
+    "nombre": "celulares",
+    "marca": "samsung",
+    "modelo": "Y510T",
+    "precio": 80000,
+    "stock": 25,
+    "img": "celular.jpg"
+},
+
+{
+    "id": 5,
+    "idCategoria":5,
+    "nombre": "laptop",
+    "marca": "samsung",
+    "modelo": "Y510P",
+    "precio": 85000,
+    "stock": 12,
+    "img": "laptop.jpg"
+}
+]

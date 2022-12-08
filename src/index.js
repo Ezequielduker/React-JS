@@ -10,4 +10,6 @@ root.render(
   </React.StrictMode>
 );
 
+// strict mode ejecuta dos veces
+
 

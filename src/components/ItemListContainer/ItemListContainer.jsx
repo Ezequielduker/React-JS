@@ -1,12 +1,24 @@
-import { useState } from "react";
-const ItemListContainer = ({greeting}) => {
-    
-    const [numero, setNumero] = useState(0)
+// consultar BDD
+import { useState, useEffect } from "react";
+import ItemList from "../ItemList/ItemList";
+import { consultarBDD } from "../../assets/funciones.js";
+
+const ItemListContainer = ({ greeting }) => {
+    const [productos, setProductos] = useState([]);
+    useEffect(() => {
+        consultarBDD().then(productList => {
+            
+            const cardProductos = ItemList({ productList })
+            setProductos(cardProductos)
+        })
+
+    }, []);
+
     return (
-        <div>
-            <p>{numero}</p>
-            <p>{greeting}</p>
+        <div className=" row cardProductos">
+            {productos}
         </div>
+
     );
 }
 

@@ -1,7 +1,0 @@
-.contenedor__main{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 5em;
-    flex-wrap: row nowrap;
-}
