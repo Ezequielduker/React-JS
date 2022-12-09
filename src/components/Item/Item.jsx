@@ -3,7 +3,7 @@
 const Item = ({ producto }) => {
     return (
 
-        <div className="card border-light mb-3 cardProducto">
+        <div className="card border-light mb-3 cardProducto p-3">
             <img src={`../imagenes/${producto.img}`} className="card-img-top" alt="..." />
             <div className="card-body cardBody">
                 <h5 className="card-title">{producto.nombre} {producto.modelo}</h5>
