@@ -8,6 +8,7 @@ const Navbar = () => {
         <a className="navbar-brand" href="#">
           <span className="text-warning">E-commerce</span>
         </a>
+        <i className="bi bi-laptop"></i>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
