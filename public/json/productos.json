@@ -10,8 +10,8 @@
     "img": "macbook.jpg"
 },
 {
-    "id": 2,
-    "idCategoria": 2,
+    "id": 4,
+    "idCategoria": 4,
     "nombre": "auriculares-xiaomi",
     "marca": "xiaomi",
     "modelo": "Y510H",
@@ -21,8 +21,8 @@
 },
 
 {
-    "id": 3,
-    "idCategoria": 3,
+    "id": 5,
+    "idCategoria": 4,
     "nombre": "auriculares",
     "marca": "boss",
     "modelo": "Y510J",
@@ -32,8 +32,8 @@
 },
 
 {
-    "id": 4,
-    "idCategoria":4 ,
+    "id": 2,
+    "idCategoria":2 ,
     "nombre": "celulares",
     "marca": "samsung",
     "modelo": "Y510T",
@@ -43,8 +43,8 @@
 },
 
 {
-    "id": 5,
-    "idCategoria":5,
+    "id": 3,
+    "idCategoria":3,
     "nombre": "laptop",
     "marca": "samsung",
     "modelo": "Y510P",
