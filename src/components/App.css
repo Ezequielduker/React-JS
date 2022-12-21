@@ -72,3 +72,25 @@ img {
     margin-bottom: 3px;
     text-align: center;
 }
+
+.imgBody {
+    display:block;
+    margin:auto;
+    max-height: 100%;
+}
+
+.cartContainer {
+    margin-top:3%;
+    margin-left: 26.5%;
+}
+
+.divButtons button{
+    margin:4px;
+}
+
+@media (max-width:991px) {
+    .cartWidget {
+        color:white;
+        margin-bottom: 10px;
+    }
+}

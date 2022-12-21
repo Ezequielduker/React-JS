@@ -18,7 +18,7 @@ const Cart = () => {
                     <div className={`card mb-3 ${darkMode ? 'text-white bg-secondary' : 'border-light'}`} key={indice} style={{maxWidth: '540px'}}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={prod.img} className="img-fluid rounded-start" alt="..." />
+                                <img src={`../imagenes/${prod.img}`} className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-8">
                         <div className="card-body">
