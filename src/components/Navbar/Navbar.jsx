@@ -1,9 +1,14 @@
 import Categorias from "./Categorias/Categorias";
 import CardWidget from "../CartWidget/CardWidget";
+import BotonDarkMode from './BotonDarkMode/BotonDarkMode'
+
+//context
+import { useDarkModeContext } from '../context/DarkModeContext';
 
 const Navbar = () => {
+  const {darkMode} = useDarkModeContext()
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark ${darkMode ? bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <span className="text-warning">E-commerce</span>
@@ -18,6 +23,7 @@ const Navbar = () => {
           <ul className="navbar-nav flex-row flex-wrap text-light">
             <li className="nav-item col-6 col-md-auto p-2">
              <a href="#" className="text-white"> <CardWidget /></a>
+             <BotonDarkMode/>
             </li>
           </ul>
         </div>

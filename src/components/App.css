@@ -25,9 +25,9 @@ img {
     margin-top:3px;
 } */
 
-body {
+/* body {
     background: #191919;
-}
+} */
 
 .cardProducto {
     width: 18rem;
@@ -62,4 +62,13 @@ img {
 .itemDetail {
     max-width: 540px;
     margin-top: 20px;
+}
+.darkMode {
+    background-color:black;
+    color:gainsboro;
+}
+.cardBodyDark {
+    background-color: hsl(0, 0%, 33%);
+    margin-bottom: 3px;
+    text-align: center;
 }
