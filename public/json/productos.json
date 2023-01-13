@@ -7,7 +7,7 @@
     "modelo": "Y510P",
     "precio": 60000,
     "stock": 30,
-    "img": "macbook.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-9d14e.appspot.com/o/macbook.jpg?alt=media&token=b3396315-ca32-4513-a366-74eb05ec4852"
 },
 {
     "id": 4,
@@ -17,7 +17,7 @@
     "modelo": "Y510H",
     "precio": 3000,
     "stock": 10,
-    "img": "auriculares-xiaomi.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-9d14e.appspot.com/o/auriculares-xiaomi.jpg?alt=media&token=c8facea9-1919-4f4c-90c9-77d63750dc94"
 },
 
 {
@@ -28,7 +28,7 @@
     "modelo": "Y510J",
     "precio": 2000,
     "stock": 20,
-    "img": "auriculares.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-9d14e.appspot.com/o/auriculares.jpg?alt=media&token=098999eb-c2c6-4230-977b-4deecc01853d"
 },
 
 {
@@ -39,7 +39,7 @@
     "modelo": "Y510T",
     "precio": 80000,
     "stock": 25,
-    "img": "celular.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-9d14e.appspot.com/o/celular.jpg?alt=media&token=6507e691-0861-42cd-ac69-5cc449c7c5b8"
 },
 
 {
@@ -50,6 +50,6 @@
     "modelo": "Y510P",
     "precio": 85000,
     "stock": 12,
-    "img": "laptop.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-9d14e.appspot.com/o/laptop.jpg?alt=media&token=99034522-1eae-46ac-94b3-8db5597dcb88"
 }
 ]

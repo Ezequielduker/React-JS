@@ -24,7 +24,7 @@ export const CarritoProvider = (props) => {
         } else {
             const nuevoProducto = {
                 ...producto,
-                cant : cantidad
+                cant: cantidad
             }
             /*const aux = carrito
             aux.push(nuevoProducto)
@@ -51,7 +51,7 @@ export const CarritoProvider = (props) => {
     const totalPrice = () => {
         return carrito.reduce((acum, prod) => acum += (prod.cant * prod.precio), 0)
     }
-    
+    console.log(carrito)
     return (
         <CarritoContext.Provider value={{carrito, isInCart, addItem, removeItem, emptyCart, getItemQuantity, totalPrice}}>
             {props.children}
